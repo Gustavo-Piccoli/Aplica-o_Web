@@ -1,0 +1,13 @@
+OK:
+*Idioma inglês suficiente para leitura de manuais técnicos;
+
++-OK:
+*UML;
+*Modelagem E-R;
+*Programação orientada a objetos;
+*Sistemas de controle de versões;
+
+NOK:
+*Banco de dados relacional JavaScript;
+*HTML5 e CSS;
+*Desenvolvimento de Sistemas WEB utilizando a tecnologia: Java EE (JPA, EJB, CDI, JSF, JAX-RS e JAX-WS);

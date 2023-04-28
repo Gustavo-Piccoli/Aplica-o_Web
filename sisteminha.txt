@@ -1,0 +1,43 @@
+
+Criar sistema com as seguintes características:
+
+Tela 1 de inclusão de dados:
+Nome da pessoa (alfabético 50 char)
+Endereço (alfanumérico 80 char)
+CPF (numérico 11 digitos com máscara 999.999.999-99)
+
+Tela 2 de inclusão de dados:
+Nome do time de futebol (alfabético 30)
+
+Tela 3 Consulta por NOME ou CPF (incluir campos data e hora da inclusão)
+Botão para edição dos dados
+Botão para vinculação de time
+
+Tela 4 Edição da tela 1
+
+Tela 5 Consulta e Edição da tela 2
+
+Tela 6 Exclusão de pessoa (tela 1)
+
+Tela 7 Exclusão de time (tela 2)
+Não pode excluir time que tenha pessoa associada
+
+==================================================
+
+Banco de dados: (escolher o banco de dados solicitado no edital)
+
+Tabela 1
+Campo indice (numerico automático long integer)
+Campo Nome da pessoa (alfabético 50 char)
+Campo Endereço (alfanumérico 80 char)
+Campo CPF (numérico 11 digitos)
+Campo Data de inclusão (data do sistema durante a inclusão)
+Campo Hora de inclusão (data do sistema durante inclusão)
+
+Tablea 2
+Campo indice (numerico automático long integer)
+Campo Nome do time (alfabético 30 char)
+
+Tabela 3 (relacionamento)
+Campo indice da pessoa (numerico automático long integer)
+Campo indice do time (numerico automático long integer)
